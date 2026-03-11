@@ -8,7 +8,7 @@ from aiogram.utils.markdown import hbold
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8247617435:AAGu-EOFrQO8Uss0Y-xnJbh99eBBVMu_FHI")
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
@@ -33,3 +33,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
